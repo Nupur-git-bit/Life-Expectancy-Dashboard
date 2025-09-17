@@ -7,9 +7,22 @@ Users can upload their own CSV datasets or use a default dataset to explore heal
 
 ## Features
 
-### 1. **Data Upload**
-- Upload your own CSV file containing life expectancy and health indicators or use can default dataset available in this repo.
-- Handles missing values, outliers, and basic data cleaning automatically.
+### 1. **Dataset used**
+- The dataset used in this project contains life expectancy and related health indicators for 206 countries over the period 2000–2019. It includes both male and female populations with a total of 9,928 records:
+
+Female records: 4,964
+
+Male records: 4,964
+
+The dataset has been filtered using a country mapping list to ensure consistency in country names. It includes the following types of information:
+
+Demographic: Country, Year, Gender
+
+Life Expectancy: Life expectancy at birth
+
+Health Indicators: Infant Mortality, DPT Immunization, HepB3 Immunization, Measles Immunization, Tuberculosis Incidence, Tuberculosis treatment, Mortality caused by road traffic injury
+
+Socioeconomic Indicators: Unemployment, Per Capita income, Access to clean fuels and cooking technologies, Basic sanitation services, Hospital beds.
 
 ### 2. **Exploratory Data Analysis (EDA)**
 - Correlation heatmaps of numeric features.
