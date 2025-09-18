@@ -747,12 +747,4 @@ Original file is located at
 #     st.dataframe(cluster_means)
 #
 
-!streamlit run app.py &>/dev/null &
-
-!pkill -f ngrok
-
-from pyngrok import ngrok
-
-public_url = ngrok.connect(8501)  # just the number, no "port=" or quotes around port
-print("Public URL:", public_url)
 
