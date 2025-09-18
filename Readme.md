@@ -1,4 +1,4 @@
-# Life Expectancy Dashboard
+# Life Expectancy Dashboard (https://life-expectancy-dashboard-cwc5grlviqbixquyqpeajf.streamlit.app/)
 
 This is an interactive **Streamlit dashboard** for exploring global life expectancy data, performing exploratory data analysis (EDA), and building regression, classification, and clustering models.
 Users can upload their own CSV datasets or use a default dataset to explore health, demographic, and development indicators.
